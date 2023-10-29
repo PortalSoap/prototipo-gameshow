@@ -1,0 +1,42 @@
+@{
+    ViewData["Title"] = "Pergunta [x]";
+}
+
+<main>
+    <div id="game" class="background">
+        <div class="info">
+            <div id="player-1" class="player-info">
+                <div class="player-name">Jogador 1</div>
+                <div class="player-color-blue"></div>
+                <div class="player-points">0</div>
+            </div>
+            <div id="player-2" class="player-info">
+                <div class="player-name">Jogador 2</div>
+                <div class="player-color-red"></div>
+                <div class="player-points">0</div>
+            </div>
+        </div>
+        <div class="cronometer">
+            <div class="seconds">25</div>
+            <img class="icon" src="/img/cronometer.png">
+        </div>
+        <div class="characters">
+            <img src="/img/man.png">
+            <img src="/img/showman.png">
+            <img src="/img/woman.png">
+        </div>
+        <div class="label">
+            <p class="question">
+                Qual a capital do Brasil? Isso e aquilo isso e aquilo mas com certeza não isso e aquilo porque isso e aquilo não é nada do tipo.
+            </p>
+            <div class="options">
+                <div id="a" class="option correct">Brasília</div>
+                <div id="b" class="option wrong">São Paulo</div>
+                <div id="c" class="option">Rio de Janeiro</div>
+                <div id="d" class="option">Fortaleza</div>
+                <div id="e" class="option">Belo Horizonte</div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="~/js/script.js"></script>

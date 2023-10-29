@@ -1,20 +1,44 @@
 {
   "Files": [
     {
-      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ButtonBattle.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ButtonBattle.bundle.scp.css"
-    },
-    {
-      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\cronometer.png",
+      "PackagePath": "staticwebassets\\img\\cronometer.png"
+    },
+    {
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\everyone.png",
+      "PackagePath": "staticwebassets\\img\\everyone.png"
+    },
+    {
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\man.png",
+      "PackagePath": "staticwebassets\\img\\man.png"
+    },
+    {
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\showman.png",
+      "PackagePath": "staticwebassets\\img\\showman.png"
+    },
+    {
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\stage.jpg",
+      "PackagePath": "staticwebassets\\img\\stage.jpg"
+    },
+    {
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\woman.png",
+      "PackagePath": "staticwebassets\\img\\woman.png"
+    },
+    {
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\lib\\bootstrap\\LICENSE",

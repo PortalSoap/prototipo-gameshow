@@ -54,9 +54,7 @@ C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\staticwebassets\msbuild.buildTransi
 C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\staticwebassets.pack.json
 C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\staticwebassets.build.json
 C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\staticwebassets.development.json
-C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\scopedcss\bundle\ButtonBattle.styles.css
-C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\scopedcss\projectbundle\ButtonBattle.bundle.scp.css
 C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\ButtonBattle.csproj.CopyComplete
 C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\ButtonBattle.dll
 C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\refint\ButtonBattle.dll

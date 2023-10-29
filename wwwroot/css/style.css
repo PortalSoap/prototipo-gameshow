@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    overflow: hidden;
+    font-family: 'Roboto';
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#themes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#addition {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#game {
+    background-image: url('/img/stage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-menu {
+    min-width: 450px;
+    height: 100vh;
+    background-color: #333399;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.main-menu .logo {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 80px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    user-select: none;
+}
+
+#themes h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#themes ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+label {
+    display: block;
+    
+}
+
+#addition form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#addition input[type="text"] {
+    width: 300px;
+    font-size: 1.5rem;
+    border: 1px solid #444444;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+}
+
+#addition input[name="question"], #addition input[name="theme"] {
+    width: 500px;
+}
+
+#addition input[type="submit"] {
+    width: 100px;
+    align-self: flex-end;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+}
+
+.player-info {
+    width: 300px;
+    height: 50px;
+    display: flex;
+}
+
+.player-name {
+    height: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #333399;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.player-color-blue {
+    width:10px;
+    height: 100%;
+    background-color: #1111ee;
+}
+
+.player-color-red {
+    width:10px;
+    height: 100%;
+    background-color: #ee3333;
+}
+
+.player-points {
+    width: 50px;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.cronometer {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cronometer .seconds {
+    color: #000000;
+    font-size: 3rem;
+}
+
+.cronometer .icon {
+    width: 50px;
+    height: 25px;
+}
+
+.characters {
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    display: flex;
+    user-select: none;
+}
+
+.label {
+    height: 19rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 30px 100px;
+    background-color: #00000080;
+    color: #ffffff;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    min-height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.option {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wrong {
+    background-color: #c03232;
+    pointer-events: none;
+}
+
+.correct {
+    background-color: #51be51;
+    pointer-events: none;
+}
+
+.option:hover {
+    background-color: #00000080;
+}

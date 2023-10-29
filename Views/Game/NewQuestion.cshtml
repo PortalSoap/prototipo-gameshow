@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Nova Pergunta";
+}
+
+<main>
+    <div id="addition" class="background">
+        <h1>[NOME DO TEMA AQUI]</h1>
+        <form action="" method="post" autocomplete="off">
+            <label style="font-size: 1.5rem">
+                Pergunta: <br/>
+                <input type="text" name="question">
+            </label>
+            <div class="options">
+                <label>
+                    Alternativa A: <br/>
+                    <input type="text" name="option-a"> <input type="radio" id="a" name="options">
+                </label>
+                <label>
+                    Alternativa B: <br/>
+                    <input type="text" name="option-b"> <input type="radio" id="b" name="options">
+                </label>
+                <label>
+                    Alternativa C: <br/>
+                    <input type="text" name="option-c"> <input type="radio" id="c" name="options">
+                </label>
+                <label>
+                    Alternativa D: <br/>
+                    <input type="text" name="option-d"> <input type="radio" id="d" name="options">
+                </label>
+                <label>
+                    Alternativa E: <br/>
+                    <input type="text" name="option-e"> <input type="radio" id="e" name="options">
+                </label>
+            </div>
+            <input class="btn" type="submit" value="Próximo">
+        </form>
+    </div>
+</main>
