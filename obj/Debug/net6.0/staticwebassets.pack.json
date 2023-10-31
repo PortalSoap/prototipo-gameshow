@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\man-answer.png",
+      "PackagePath": "staticwebassets\\img\\man-answer.png"
+    },
+    {
       "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\man.png",
       "PackagePath": "staticwebassets\\img\\man.png"
     },
@@ -31,6 +35,10 @@
     {
       "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\stage.jpg",
       "PackagePath": "staticwebassets\\img\\stage.jpg"
+    },
+    {
+      "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\woman-answer.png",
+      "PackagePath": "staticwebassets\\img\\woman-answer.png"
     },
     {
       "Id": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\woman.png",

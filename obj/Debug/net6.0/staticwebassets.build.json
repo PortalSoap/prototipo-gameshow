@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5KGBWdcm2AzRnFc64S7BRYR1TAxFNqGTMlIxag1nF68=",
+  "Hash": "5qLHIDubjn/y7OPQLg4zvVvXVzLIIN6tbAuonbIkg0w=",
   "Source": "ButtonBattle",
   "BasePath": "_content/ButtonBattle",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\img\\man.png"
     },
     {
+      "Identity": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\man-answer.png",
+      "SourceId": "ButtonBattle",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\",
+      "BasePath": "_content/ButtonBattle",
+      "RelativePath": "img/man-answer.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\man-answer.png"
+    },
+    {
       "Identity": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\showman.png",
       "SourceId": "ButtonBattle",
       "SourceType": "Discovered",
@@ -168,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\woman.png"
+    },
+    {
+      "Identity": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\img\\woman-answer.png",
+      "SourceId": "ButtonBattle",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\",
+      "BasePath": "_content/ButtonBattle",
+      "RelativePath": "img/woman-answer.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\woman-answer.png"
     },
     {
       "Identity": "C:\\temp\\ws-vsc\\ButtonBattle\\wwwroot\\js\\script.js",

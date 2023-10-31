@@ -38,6 +38,11 @@
     background-image: url('/img/stage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    display: grid;
+}
+
+#question-info {
+    display: none;
 }
 
 .main-menu {
@@ -136,6 +141,15 @@ label {
     align-self: flex-end;
 }
 
+#start-timer {
+    position: absolute;
+    font-size: 25rem;
+    color: yellow;
+    justify-self: center;
+    align-self: center;
+    user-select: none;
+}
+
 .info {
     width: 100%;
     display: flex;
@@ -209,9 +223,11 @@ label {
 }
 
 .characters {
+    width: 100%;
     position: absolute;
+    display: flex;
+    justify-content: center;
     bottom: 0px;
-    left: 20%;
     display: flex;
     user-select: none;
 }
@@ -266,4 +282,15 @@ label {
 
 .option:hover {
     background-color: #00000080;
+}
+
+.next {
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000000;
 }
