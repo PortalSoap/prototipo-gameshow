@@ -4,10 +4,10 @@
 
 <main>
     <div id="addition" class="background">
-        <form action="" method="post" autocomplete="off">
+        <form asp-controller="Game" asp-action="NewQuestion" method="post" autocomplete="off">
             <label for="theme">
                 Tema: <br/>
-                <input type="text" name="theme">
+                <input type="text" name="theme" required>
             </label>
             <input class="btn" type="submit" value="Próximo">
         </form>

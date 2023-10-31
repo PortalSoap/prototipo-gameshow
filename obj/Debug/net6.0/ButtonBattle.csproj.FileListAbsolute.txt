@@ -1,5 +1,4 @@
 C:\temp\ws-vsc\ButtonBattle\bin\Debug\net6.0\appsettings.Development.json
-C:\temp\ws-vsc\ButtonBattle\bin\Debug\net6.0\appsettings.json
 C:\temp\ws-vsc\ButtonBattle\bin\Debug\net6.0\ButtonBattle.staticwebassets.runtime.json
 C:\temp\ws-vsc\ButtonBattle\bin\Debug\net6.0\ButtonBattle.exe
 C:\temp\ws-vsc\ButtonBattle\bin\Debug\net6.0\ButtonBattle.deps.json
@@ -61,3 +60,4 @@ C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\refint\ButtonBattle.dll
 C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\ButtonBattle.pdb
 C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\ButtonBattle.genruntimeconfig.cache
 C:\temp\ws-vsc\ButtonBattle\obj\Debug\net6.0\ref\ButtonBattle.dll
+C:\temp\ws-vsc\ButtonBattle\bin\Debug\net6.0\appsettings.json

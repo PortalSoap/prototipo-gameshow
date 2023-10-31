@@ -2,34 +2,37 @@
     ViewData["Title"] = "Nova Pergunta";
 }
 
+@model String;
+
 <main>
     <div id="addition" class="background">
-        <h1>[NOME DO TEMA AQUI]</h1>
-        <form action="" method="post" autocomplete="off">
+        <h1>@Model</h1>
+        <form asp-controller="Game" asp-action="AddQuestions" method="post" autocomplete="off">
             <label style="font-size: 1.5rem">
                 Pergunta: <br/>
-                <input type="text" name="question">
+                <input type="text" name="question" required>
             </label>
             <div class="options">
+                <input style="display: none;" type="text" name="theme" value="@Model">
                 <label>
                     Alternativa A: <br/>
-                    <input type="text" name="option-a"> <input type="radio" id="a" name="options">
+                    <input type="text" name="optionA" required> <input type="radio" value="a" name="selected" required>
                 </label>
                 <label>
                     Alternativa B: <br/>
-                    <input type="text" name="option-b"> <input type="radio" id="b" name="options">
+                    <input type="text" name="optionB" required> <input type="radio" value="b" name="selected" required>
                 </label>
                 <label>
                     Alternativa C: <br/>
-                    <input type="text" name="option-c"> <input type="radio" id="c" name="options">
+                    <input type="text" name="optionC" required> <input type="radio" value="c" name="selected" required>
                 </label>
                 <label>
                     Alternativa D: <br/>
-                    <input type="text" name="option-d"> <input type="radio" id="d" name="options">
+                    <input type="text" name="optionD" required> <input type="radio" value="d" name="selected" required>
                 </label>
                 <label>
                     Alternativa E: <br/>
-                    <input type="text" name="option-e"> <input type="radio" id="e" name="options">
+                    <input type="text" name="optionE" required> <input type="radio" value="e" name="selected" required>
                 </label>
             </div>
             <input class="btn" type="submit" value="Próximo">

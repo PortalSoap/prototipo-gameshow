@@ -2,14 +2,17 @@
     ViewData["Title"] = "Escolha um Tema";
 }
 
+@model List<String>;
+
 <main>
     <div id="themes" class="background">
         <h1>Escolha um tema:</h1>
         <ul>
-            <li><a class="btn" href="">Tema A</a></li>
-            <li><a class="btn" href="">Tema B</a></li>
-            <li><a class="btn" href="">Tema C</a></li>
-            <li><a class="btn" href="">Novo Tema</a></li>
+            @foreach(String theme in @Model)
+            {
+                <li><a class="btn" href="">@theme</a></li>
+            }
+            <li><a class="btn" asp-controller="Game" asp-action="NewTheme">Criar Tema</a></li>
         </ul>
     </div>
 </main>
