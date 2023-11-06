@@ -141,7 +141,7 @@ label {
     align-self: flex-end;
 }
 
-#start-timer {
+#wait-timer {
     position: absolute;
     font-size: 25rem;
     color: yellow;
@@ -198,7 +198,7 @@ label {
     font-size: 2rem;
 }
 
-.cronometer {
+#cronometer {
     width: 100px;
     height: 100px;
     background-color: #ffffff;
@@ -208,16 +208,17 @@ label {
     right: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
-.cronometer .seconds {
+#cronometer .seconds {
     color: #000000;
     font-size: 3rem;
 }
 
-.cronometer .icon {
+#cronometer .icon {
     width: 50px;
     height: 25px;
 }

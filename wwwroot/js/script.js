@@ -1,18 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    let secondsRemaining = 3;
-    let timer = document.getElementById("start-timer");
+    let waitSecondsRemaining = 3;
+    let waitTimer = document.getElementById("wait-timer");
 
-    function updateTimer() {
-        secondsRemaining--;
-        if (secondsRemaining < 1) {
-            clearInterval(timerInterval);
-            timer.style.display = "none";
+    function updateWaitTimer() {
+        waitSecondsRemaining--;
+        if (waitSecondsRemaining < 1) {
+            clearInterval(waitTimerInterval);
+            waitTimer.style.display = "none";
         }
-        timer.innerHTML = secondsRemaining;
+        waitTimer.innerHTML = waitSecondsRemaining;
     }
 
-    let timerInterval = setInterval(updateTimer, 1000);
+    let waitTimerInterval = setInterval(updateWaitTimer, 1000);
 
     setTimeout(function () {
         let content = document.getElementById("question-info");
@@ -32,6 +32,25 @@ document.addEventListener("DOMContentLoaded", function () {
                         let image = document.getElementById("player-2").src = "/img/woman-answer.png";
                     }
                 }
+            }
+
+            if (isDefined == true) {
+                let cronometerSecondsRemaining = 25;
+                let cronometerTimer = document.getElementById("cronometer");
+                cronometerTimer.style.display = "block";
+
+                function updateCronometerTimer() {
+                    cronometerSecondsRemaining--;
+                    if (cronometerSecondsRemaining < 1) {
+                        clearInterval(cronometerTimerInterval);
+                    }
+                    if (cronometerSecondsRemaining < 10) {
+                        cronometerTimer.querySelector(".seconds").style.color = "red";
+                    }
+                    cronometerTimer.querySelector(".seconds").innerHTML = cronometerSecondsRemaining;
+                }
+
+                let cronometerTimerInterval = setInterval(updateCronometerTimer, 1000);
             }
         }
     }, 3000);
