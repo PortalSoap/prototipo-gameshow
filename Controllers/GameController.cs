@@ -33,9 +33,10 @@ public class GameController : Controller
         return View();
     }
 
+
     public IActionResult NewQuestion(string theme)
     {
-        if(_count <= 2)
+        if(_count < 3)
         {
             return View("NewQuestion", theme);
         }
@@ -62,7 +63,7 @@ public class GameController : Controller
             CorrectOption = "c"
         };
 
-        if (_count <= 2)
+        if (_count < 3)
         {
             newQuestion = new QuestionViewModel
             {
@@ -95,8 +96,26 @@ public class GameController : Controller
         }
     }
 
-    public IActionResult Question()
+    public IActionResult NextQuestion(string theme)
     {
-        return View();
+        if(_count < 3)
+        {
+            List<QuestionViewModel> questions = _dbContext.Questions.Where(x => x.Theme == theme).ToList();
+            QuestionViewModel actualQuestion = questions[_count];
+
+            _count++;
+
+            return RedirectToAction("Question", actualQuestion);
+        }
+        else
+        {
+            _count = 0;
+            return RedirectToAction("Themes");
+        }
+    }
+
+    public IActionResult Question(QuestionViewModel q)
+    {
+        return View(q);
     }
 }

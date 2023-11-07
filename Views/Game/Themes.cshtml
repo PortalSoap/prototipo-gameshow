@@ -10,7 +10,12 @@
         <ul>
             @foreach(String theme in @Model)
             {
-                <li><a class="btn" href="">@theme</a></li>
+                <li>
+                    <form asp-controller="Game" asp-action="NextQuestion" method="post">
+                        <input type="text" name="theme" style="display: none;" value="@theme">
+                        <input class="btn" type="submit" value="@theme" />
+                    </form>
+                </li>
             }
             <li><a class="btn" asp-controller="Game" asp-action="NewTheme">Criar Tema</a></li>
         </ul>

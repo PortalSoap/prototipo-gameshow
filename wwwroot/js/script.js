@@ -31,6 +31,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     else {
                         let image = document.getElementById("player-2").src = "/img/woman-answer.png";
                     }
+                    let options = document.getElementsByClassName("option");
+                    for (let option of options) {
+                        option.classList.add("interaction");
+                    }
                 }
             }
 

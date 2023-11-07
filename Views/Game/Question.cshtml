@@ -2,6 +2,8 @@
     ViewData["Title"] = "Pergunta [x]";
 }
 
+@model ButtonBattle.Models.QuestionViewModel;
+
 <main>
     <div id="game" class="background">
         <div id="wait-timer">3</div>
@@ -29,17 +31,20 @@
             </div>
             <div class="label">
                 <p class="question">
-                    Qual a capital do Brasil? Isso e aquilo isso e aquilo mas com certeza não isso e aquilo porque isso e aquilo não é nada do tipo.
+                    @Model.Question
                 </p>
                 <div class="options">
-                    <div id="a" class="option correct">Brasília</div>
-                    <div id="b" class="option wrong">São Paulo</div>
-                    <div id="c" class="option">Rio de Janeiro</div>
-                    <div id="d" class="option">Fortaleza</div>
-                    <div id="e" class="option">Belo Horizonte</div>
+                    <div id="a" class="option">@Model.OptionA</div> <!--classe para correto: correct-->
+                    <div id="b" class="option">@Model.OptionB</div> <!--classe para incorreto: wrong-->
+                    <div id="c" class="option">@Model.OptionC</div>
+                    <div id="d" class="option">@Model.OptionD</div>
+                    <div id="e" class="option">@Model.OptionE</div>
                 </div>
             </div>
-            <a class="next" href="">Próximo</a>
+            <form asp-controller="Game" asp-action="NextQuestion" method="post">
+                <input type="text" name="theme" style="display: none;" value="@Model.Theme"/>
+                <input class="next" type="submit" value="Próximo"/>
+            </form>
         </div>
     </div>
 </main>

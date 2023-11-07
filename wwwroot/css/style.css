@@ -268,7 +268,7 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    user-select: none;
 }
 
 .wrong {
@@ -281,8 +281,9 @@ label {
     pointer-events: none;
 }
 
-.option:hover {
+.interaction:hover {
     background-color: #00000080;
+    cursor: pointer;
 }
 
 .next {
@@ -294,4 +295,5 @@ label {
     padding: 10px 30px;
     text-decoration: none;
     color: #000000;
+    cursor: pointer;
 }
