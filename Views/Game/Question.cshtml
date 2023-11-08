@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "Pergunta [x]";
+    ViewData["Title"] = $"Pergunta {ViewData["actualQuestion"]}";
 }
 
 @model ButtonBattle.Models.QuestionViewModel;
@@ -12,12 +12,12 @@
                 <div class="player-info">
                     <div class="player-name">Jogador 1</div>
                     <div class="player-color-blue"></div>
-                    <div class="player-points">0</div>
+                    <div class="player-points">@ViewData["team1Points"]</div>
                 </div>
                 <div class="player-info">
                     <div class="player-name">Jogador 2</div>
                     <div class="player-color-red"></div>
-                    <div class="player-points">0</div>
+                    <div class="player-points">@ViewData["team2Points"]</div>
                 </div>
             </div>
             <div id="cronometer" style="display: none;">
@@ -49,3 +49,4 @@
     </div>
 </main>
 <script src="~/js/script.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
